@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  margin: 20px 0 0 40px;
+}
+
+.logo {
+  font-size: 2em;
+  float: left;
+}
+.nav-list {
+  list-style-type: none;
+  margin-top: 0;
+  padding-right: 50px;
+  float: right;
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.reqruitment img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  height: 100vh;
+}
+
+.reqruitment-text1 {
+  position: absolute;
+  top: 150px;
+  left: 160px;
+  color: white;
+}
+
+.reqruitment-text2 {
+  position: absolute;
+  top: 250px;
+  left: 160px;
+  padding: 0;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.reqruitment-text2 p {
+  margin: 0;
+  padding: 0;
+}
+
+.reqruitment-text3 {
+  position: absolute;
+  top: 600px;
+  left: 160px;
+}
+
+.button1 {
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  background-color: #4266d6;
+  height: 30px;
+  width: 7em;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 40px;
+}
+
+.button1 a {
+  color: white;
+}
+
+.over_ons {
+  position: relative;
+}
+
+.over_ons img {
+  position: absolute;
+  top: -100px;
+  left: 150px;
+  height: 90vh;
+}
+
+.overons-text1 {
+  position: absolute;
+  top: 80px;
+  left: 55%;
+  color: #4266d6;
+  font-weight: bold;
+}
+
+.overons-text2 {
+  position: absolute;
+  top: 180px;
+  left: 55%;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 0.2;
+}
+.overons-text3 {
+  position: absolute;
+  top: 460px;
+  left: 55%;
+  font-weight: bold;
+  line-height: 0.7;
+  color: #868686;
+}
+
+.button2 {
+  position: absolute;
+  top: 600px;
+  left: 55%;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #4266d6;
+  background-color: #fff;
+  height: 30px;
+  width: 7em;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 40px;
+}
+
+.button2 a {
+  color: #4266d6;
+}

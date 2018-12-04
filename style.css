@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body {
+* {
+  text-decoration: none;
+  list-style: none;
   font-family: 'Open Sans', sans-serif;
+}
+
+body {
   margin: 0;
 }
 
 a:link,
 a:visited {
-  text-decoration: none;
   color: black;
 }
 
@@ -20,7 +24,6 @@ a:visited {
   float: left;
 }
 .nav-list {
-  list-style-type: none;
   margin-top: 0;
   padding-right: 50px;
   float: right;

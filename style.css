@@ -99,47 +99,6 @@ li {
   left: 150px;
   height: 90vh;
 }
-.onze_diensten img {
-  position: relative;
-  top: 80px;
-  left: 870px;
-  height: 90vh;
-}
-
-.onzediensten-text1 {
-  position: relative;
-  top: 110px;
-  left: 10%;
-  color: #4266d6;
-  font-weight: bold;
-}
-
-.onzediensten-text2 {
-  position: relative;
-  top: -500px;
-  left: 10%;
-  color: #4266d6;
-  font-weight: bold;
-  font-size: 70px;
-}
-
-.onzediensten-text3 {
-  position: relative;
-  top: -550px;
-  left: 10%;
-  font-weight: bold;
-  line-height: 0.7;
-  color: #868686;
-}
-
-.onzediensten-text4 {
-  position: relative;
-  top: -500px;
-  left: 10%;
-  font-size: 70px;
-  font-weight: bold;
-  line-height: 0.2;
-}
 
 .overons-text1 {
   position: absolute;
@@ -184,4 +143,88 @@ li {
 
 .button2 a {
   color: #4266d6;
+}
+
+.onze_diensten {
+  position: relative;
+  height: 100vh;
+  margin-top: 0;
+}
+
+.onze_diensten img {
+  position: relative;
+  top: 50px;
+  left: 870px;
+  height: 90vh;
+}
+
+.onzediensten-text1 {
+  position: relative;
+  top: 110px;
+  left: 10%;
+  color: #4266d6;
+  font-weight: bold;
+}
+
+.onzediensten-text2 {
+  position: relative;
+  top: -500px;
+  left: 10%;
+  color: #4266d6;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.onzediensten-text3 {
+  position: relative;
+  top: -550px;
+  left: 10%;
+  font-weight: bold;
+  line-height: 0.7;
+  color: #868686;
+}
+
+.onzediensten-text4 {
+  position: relative;
+  top: -500px;
+  left: 10%;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 0.2;
+}
+
+.clients {
+  position: relative;
+  top: 100px;
+}
+
+.clients-text1 {
+  position: relative;
+  top: 200px;
+  left: 10%;
+  color: #fff;
+  font-weight: bold;
+}
+
+.clients-img {
+  background-color: rgb(32, 85, 232, 0.9);
+}
+
+.clients img {
+  position: relative;
+  /* top: 100px; */
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  opacity: 0.2;
+}
+
+.clients-text2 {
+  position: relative;
+  top: -450px;
+  left: 10%;
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 0.3;
 }

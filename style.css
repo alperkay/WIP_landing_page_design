@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+.wrapper {
+  max-width: 100%;
+}
+
 a:link,
 a:visited {
   color: black;
@@ -23,6 +27,11 @@ a:visited {
   font-size: 2em;
   float: left;
 }
+
+.logo img {
+  height: 50px;
+}
+
 .nav-list {
   margin-top: 0;
   padding-right: 50px;
@@ -217,7 +226,7 @@ li {
   background-color: rgb(32, 85, 232, 0.9);
 }
 
-.clients img {
+.clients_img {
   position: relative;
   /* top: 100px; */
   width: 100%;
@@ -268,10 +277,10 @@ li {
   height: 20vh;
 }
 
-.clients_list div {
+.clients_list img {
   float: left;
-  margin: 40px 90px 0 90px;
-  border: 1px solid black;
+  height: 50px;
+  margin: 40px 50px 0 50px;
 }
 
 .cultuur {
@@ -344,4 +353,74 @@ li {
   text-align: center;
   display: inline-block;
   border-radius: 40px;
+}
+
+.last_vacancies .title {
+  position: relative;
+  top: 600px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.last_vacancies .vacancy_number {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 430px;
+  left: 950px;
+  border: 2px solid #4266d6;
+  border-radius: 50%;
+  text-align: center;
+  background: #4266d6;
+  color: #fff;
+}
+
+.vacancy_number p {
+  margin-top: 10px;
+}
+
+.vacancies {
+  position: relative;
+  top: 600px;
+  left: 60px;
+  white-space: nowrap;
+}
+
+.vacancies div {
+  display: inline-block;
+  margin-left: 150px;
+  border: 1px solid #b8b8b8;
+  border-radius: 2px;
+  height: 70vh;
+  width: 25vw;
+  white-space: initial;
+  padding-left: 30px;
+}
+
+.vacancy_seniority {
+  float: right;
+  margin-right: 15px;
+  border: 1px solid orange;
+  background: orange;
+  color: white;
+  width: 70px;
+  text-align: center;
+}
+
+.vacancy_title {
+  margin-top: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #4266d6;
+}
+
+.vacancy_details {
+  font-weight: bold;
+}
+
+.vacancies div a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4266d6;
 }

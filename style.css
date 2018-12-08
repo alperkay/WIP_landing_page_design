@@ -72,12 +72,18 @@ li {
   left: 160px;
 }
 
+.button a {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .button1 {
   cursor: pointer;
   font-weight: bold;
   border: none;
   background-color: #4266d6;
-  height: 30px;
+  /* height: 30px; */
   width: 7em;
   padding: 10px;
   text-align: center;
@@ -133,7 +139,7 @@ li {
   font-weight: bold;
   border: 2px solid #4266d6;
   background-color: #fff;
-  height: 30px;
+  /* height: 30px; */
   width: 7em;
   padding: 10px;
   text-align: center;
@@ -141,7 +147,8 @@ li {
   border-radius: 40px;
 }
 
-.button2 a {
+.button2 a,
+.button4 a {
   color: #4266d6;
 }
 
@@ -237,7 +244,7 @@ li {
   font-weight: bold;
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.01);
-  height: 30px;
+  /* height: 30px; */
   width: 7em;
   padding: 10px;
   text-align: center;
@@ -265,4 +272,76 @@ li {
   float: left;
   margin: 40px 90px 0 90px;
   border: 1px solid black;
+}
+
+.cultuur {
+  position: relative;
+  height: 100vh;
+  margin-top: 0;
+  display: block;
+}
+
+.cultuur-text1 {
+  position: relative;
+  top: 200px;
+  left: 20%;
+  color: #4266d6;
+  font-weight: bold;
+}
+
+.cultuur-img1 {
+  position: relative;
+  top: 300px;
+  left: 10%;
+  height: 50vh;
+}
+.cultuur-img2 {
+  position: absolute;
+  top: 220px;
+  right: 10%;
+  height: 50vh;
+}
+.cultuur-img3 {
+  position: absolute;
+  top: 800px;
+  left: 30%;
+  height: 30vh;
+}
+
+.cultuur-text2 {
+  position: relative;
+  top: 360px;
+  left: 60%;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 0.2;
+}
+
+.cultuur-text2 p {
+  margin: 50px 0 50px 0;
+}
+
+.cultuur-text3 {
+  position: relative;
+  top: 390px;
+  left: 60%;
+  font-weight: bold;
+  line-height: 0.7;
+  color: #868686;
+}
+
+.button4 {
+  position: relative;
+  top: 430px;
+  left: 60%;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #4266d6;
+  background-color: #fff;
+  /* height: 30px; */
+  width: 7em;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 40px;
 }

@@ -10,10 +10,6 @@ body {
   margin: 0;
 }
 
-/* .wrapper {
-  max-width: 100%;
-} */
-
 a:link,
 a:visited {
   color: black;
@@ -52,7 +48,6 @@ li {
 
 .reqruitment img {
   width: 100%;
-  height: auto;
   object-fit: cover;
   height: 100vh;
 }
@@ -97,7 +92,6 @@ li {
   font-weight: bold;
   border: none;
   background-color: #4266d6;
-  /* height: 30px; */
   width: 7em;
   padding: 10px;
   text-align: center;
@@ -155,7 +149,6 @@ li {
   font-weight: bold;
   border: 2px solid #4266d6;
   background-color: #fff;
-  /* height: 30px; */
   width: 7em;
   padding: 10px;
   text-align: center;
@@ -239,7 +232,6 @@ li {
 
 .clients_img {
   position: relative;
-  /* top: 100px; */
   width: 100%;
   object-fit: cover;
   height: 100vh;
@@ -264,7 +256,6 @@ li {
   font-weight: bold;
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.01);
-  /* height: 30px; */
   width: 7em;
   padding: 10px;
   text-align: center;
@@ -360,7 +351,6 @@ li {
   font-weight: bold;
   border: 2px solid #4266d6;
   background-color: #fff;
-  /* height: 30px; */
   width: 7em;
   padding: 10px;
   text-align: center;

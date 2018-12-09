@@ -19,6 +19,8 @@ a:visited {
   color: black;
 }
 
+/* -----------------navbar---------------------- */
+
 .nav {
   margin: 20px 0 0 40px;
 }
@@ -44,6 +46,8 @@ li {
   margin-right: 20px;
   font-weight: bold;
 }
+
+/* -----------------reqruitment---------------------- */
 
 .reqruitment img {
   width: 100%;
@@ -104,6 +108,8 @@ li {
   color: white;
 }
 
+/* -----------------over ons---------------------- */
+
 .over_ons {
   position: relative;
 }
@@ -161,6 +167,8 @@ li {
   color: #4266d6;
 }
 
+/* -----------------onze diensten---------------------- */
+
 .onze_diensten {
   position: relative;
   height: 100vh;
@@ -208,6 +216,8 @@ li {
   font-weight: bold;
   line-height: 0.2;
 }
+
+/* -----------------clients---------------------- */
 
 .clients {
   position: relative;
@@ -283,6 +293,8 @@ li {
   margin: 40px 50px 0 50px;
 }
 
+/* -----------------cultuur---------------------- */
+
 .cultuur {
   position: relative;
   height: 100vh;
@@ -355,6 +367,8 @@ li {
   border-radius: 40px;
 }
 
+/* -----------------last vacancies---------------------- */
+
 .last_vacancies .title {
   position: relative;
   top: 600px;
@@ -402,6 +416,7 @@ li {
   float: right;
   margin-right: 15px;
   border: 1px solid orange;
+  border-radius: 2px;
   background: orange;
   color: white;
   width: 70px;
@@ -423,4 +438,14 @@ li {
   font-size: 20px;
   font-weight: bold;
   color: #4266d6;
+}
+
+/* -----------------footer---------------------- */
+
+.footer {
+  position: relative;
+  top: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background: #4266d6;
 }

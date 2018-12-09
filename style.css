@@ -10,9 +10,9 @@ body {
   margin: 0;
 }
 
-.wrapper {
+/* .wrapper {
   max-width: 100%;
-}
+} */
 
 a:link,
 a:visited {
@@ -22,6 +22,7 @@ a:visited {
 /* -----------------navbar---------------------- */
 
 .nav {
+  position: relative;
   margin: 20px 0 0 40px;
 }
 
@@ -448,4 +449,54 @@ li {
   height: 100vh;
   width: 100vw;
   background: #4266d6;
+}
+
+.footer img {
+  position: absolute;
+  width: 35%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer_list {
+  position: absolute;
+  width: 70vw;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.footer_list li {
+  padding-left: 40px;
+}
+
+.footer_list li a {
+  color: #e7f6ff;
+}
+
+.contact {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: #e7f6ff;
+  font-size: 14px;
+}
+
+.contact p {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.address {
+  margin-bottom: 20px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  color: #e7f6ff;
+  font-size: 14px;
 }
